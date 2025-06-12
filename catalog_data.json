@@ -1,0 +1,180 @@
+{
+  "categories": [
+    {
+      "name": "BLOUSE",
+      "icon": "fas fa-shirt",
+      "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "subcategories": [
+        {
+          "name": "Simple Deep Neck",
+          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "description": "A classic and elegant deep neck design that accentuates the neckline, perfect for both casual and festive occasions. It offers a sophisticated and graceful look, often paired with traditional sarees.",
+          "rating": 4.5,
+          "materials": ["Cotton", "Silk", "Georgette", "Crepe"]
+        },
+        {
+          "name": "Long Blouse",
+          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "description": "Extended length blouses that offer a contemporary twist to traditional wear. Ideal for pairing with lehengas or skirts, providing a modest yet stylish appearance. Can be adorned with intricate embroidery.",
+          "rating": 4.7,
+          "materials": ["Silk", "Brocade", "Velvet", "Raw Silk"]
+        },
+        {
+          "name": "Boat Neck Blouse",
+          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "description": "A chic and modern boat neck design that gracefully outlines the collarbones. This versatile style suits various body types and is perfect for both formal and semi-formal events, offering a sophisticated appeal.",
+          "rating": 4.6,
+          "materials": ["Cotton Silk", "Georgette", "Chiffon", "Linen"]
+        },
+        {
+          "name": "Pentloom Blouse",
+          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "description": "A unique and intricate blouse style, often featuring elaborate patterns and rich textures. Pentloom blouses are a statement piece, perfect for grand celebrations and weddings, showcasing exquisite craftsmanship.",
+          "rating": 4.8,
+          "materials": ["Brocade", "Jacquard", "Silk Blend", "Net"]
+        },
+        {
+          "name": "All Type Pattern Blouse",
+          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "description": "Customizable blouses that can incorporate any pattern or design you envision, from traditional motifs to contemporary prints. Our expert tailors bring your unique vision to life with precision and artistry.",
+          "rating": 4.7,
+          "materials": ["Crepe", "Satin", "Chiffon", "Organza"]
+        },
+        {
+          "name": "Collar Neck Blouse",
+          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "description": "A sophisticated collar neck design that adds a formal and structured look to your attire. Ideal for office wear or elegant gatherings, offering a blend of traditional charm and modern professionalism.",
+          "rating": 4.6,
+          "materials": ["Cotton", "Linen", "Khadi", "Rayon"]
+        }
+      ]
+    },
+    {
+      "name": "CHOLI",
+      "icon": "fas fa-hat-cowboy",
+      "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "subcategories": [
+        {
+          "name": "Gagra Choli",
+          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "description": "The quintessential traditional Indian ensemble, perfect for festive occasions and weddings. Our Gagra Cholis feature vibrant colors, intricate embroidery, and flowing silhouettes that exude grace and grandeur.",
+          "rating": 4.7,
+          "materials": ["Silk", "Georgette", "Net", "Velvet"]
+        },
+        {
+          "name": "Crop Top Choli",
+          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "description": "A modern and trendy take on the traditional choli, designed to be paired with high-waisted skirts or lehengas. Offers a youthful and chic look, perfect for contemporary events and fusion wear.",
+          "rating": 4.6,
+          "materials": ["Crepe", "Satin", "Raw Silk", "Brocade"]
+        },
+        {
+          "name": "Simple Blouse Choli",
+          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "description": "Elegant and understated cholis that focus on clean lines and comfortable fits. Ideal for everyday wear or less formal gatherings, providing a graceful and effortless traditional look.",
+          "rating": 4.5,
+          "materials": ["Cotton", "Rayon", "Linen", "Chiffon"]
+        }
+      ]
+    },
+    {
+      "name": "KURTI",
+      "icon": "fas fa-tshirt",
+      "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "subcategories": [
+        {
+          "name": "A-Line Kurti",
+          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "description": "A universally flattering A-line silhouette that flares out gently from the waist, offering comfort and style. Perfect for all body types and suitable for both casual and semi-formal occasions.",
+          "rating": 4.7,
+          "materials": ["Cotton", "Rayon", "Georgette", "Crepe"]
+        },
+        {
+          "name": "Round Kurti",
+          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "description": "Kurtis with a classic round hemline, offering a soft and flowing look. This timeless design is comfortable and versatile, suitable for daily wear or festive events when adorned with embellishments.",
+          "rating": 4.6,
+          "materials": ["Cotton", "Linen", "Chiffon", "Silk Blend"]
+        },
+        {
+          "name": "Straight Kurti",
+          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "description": "Clean and contemporary straight-cut kurtis that offer a sleek and elongated silhouette. Ideal for a modern minimalist look, easily paired with various bottom wear for different occasions.",
+          "rating": 4.5,
+          "materials": ["Cotton", "Rayon", "Khadi", "Denim"]
+        },
+        {
+          "name": "Nayra Cut Kurti",
+          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "description": "A stylish and contemporary kurti design featuring a unique cut that adds flair and movement. Perfect for those who seek a modern yet traditional outfit, suitable for parties and special events.",
+          "rating": 4.8,
+          "materials": ["Georgette", "Chiffon", "Silk", "Net"]
+        }
+      ]
+    },
+    {
+      "name": "PANT",
+      "icon": "fas fa-pants",
+      "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "subcategories": [
+        {
+          "name": "Kurti Pant",
+          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "description": "Comfortable and stylish pants designed to perfectly complement kurtis. These offer a sleek and modern look while ensuring ease of movement, ideal for daily wear or casual outings.",
+          "rating": 4.5,
+          "materials": ["Cotton", "Rayon", "Lycra", "Flex Cotton"]
+        },
+        {
+          "name": "Plazo Pant",
+          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "description": "Wide-legged and flowing plazo pants that offer ultimate comfort and a fashionable silhouette. Perfect for a relaxed yet elegant look, suitable for both casual and festive occasions.",
+          "rating": 4.6,
+          "materials": ["Georgette", "Crepe", "Rayon", "Silk Blend"]
+        },
+        {
+          "name": "Patiyala Pant",
+          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "description": "Traditional Patiyala pants with characteristic pleats that offer a voluminous and stylish look. A classic choice for ethnic wear, providing comfort and a rich cultural aesthetic.",
+          "rating": 4.7,
+          "materials": ["Cotton", "Silk", "Satin", "Brocade"]
+        }
+      ]
+    },
+    {
+      "name": "COMBINATIONS",
+      "icon": "fas fa-box",
+      "image": "catalog/main_combination.jpg",
+      "subcategories": [
+        {
+          "name": "Kurti-Dhoti",
+          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "description": "A contemporary fusion of traditional kurti with stylish dhoti pants, offering a chic and comfortable ensemble. Perfect for modern festive wear, blending cultural roots with a trendy appeal.",
+          "rating": 4.7,
+          "materials": ["Cotton Silk", "Rayon", "Georgette", "Crepe"]
+        },
+        {
+          "name": "Kurti-Pant",
+          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "description": "A versatile and popular combination for everyday elegance. Our kurti-pant sets are designed for comfort and style, suitable for office wear, casual outings, or semi-formal gatherings.",
+          "rating": 4.6,
+          "materials": ["Cotton", "Rayon", "Linen", "Flex Cotton"]
+        },
+        {
+          "name": "Kurti-Patiyala",
+          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "description": "A classic and comfortable combination featuring a kurti paired with traditional Patiyala pants. Ideal for a relaxed yet stylish ethnic look, perfect for daily wear or cultural events.",
+          "rating": 4.5,
+          "materials": ["Cotton", "Silk", "Satin", "Brocade"]
+        },
+        {
+          "name": "Kurti-Plazo (with optional double-layer)",
+          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "description": "A fashionable and comfortable combination of kurti with wide-legged plazo pants, offering a graceful silhouette. The optional double-layer adds an extra touch of elegance and volume, perfect for festive occasions.",
+          "rating": 4.8,
+          "materials": ["Georgette", "Chiffon", "Rayon", "Crepe"]
+        }
+      ]
+    }
+  ]
+}
+
