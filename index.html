@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VastraKalā - Custom Stitched Elegance</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">VastraKalā</div>
+        <div class="menu-toggle" id="menuToggle">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="catalog.html">Catalog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-background">
+        <video autoplay muted loop id="heroVideo">
+          <source src="hero_bg.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="shape shape1"></div>
+        <div class="shape shape2"></div>
+        <div class="shape shape3"></div>
+      </div>
+      <div class="container">
+        <div class="hero-content">
+          <h1>Custom-Stitched Elegance</h1>
+          <p>Browse, Select, and Get It Stitched – Just for You.</p>
+          <a href="catalog.html" class="btn-primary">View Catalog</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Categories -->
+    <section class="featured-categories">
+      <div class="container">
+        <h2 class="section-title">Featured Categories</h2>
+        <div class="category-grid">
+          <a href="#" class="category-card">
+            <div class="category-img">
+              <img src="sonu.jpg" alt="Blouse" />
+            </div>
+            <h3>Blouse</h3>
+          </a>
+          <a href="#" class="category-card">
+            <div class="category-img">
+              <img src="vishu.jpg" alt="Choli" />
+            </div>
+            <h3>Choli</h3>
+          </a>
+          <a href="#" class="category-card">
+            <div class="category-img">
+              <img src="kurti.jpg" alt="Kurti" />
+            </div>
+            <h3>Kurti</h3>
+          </a>
+          <a href="#" class="category-card">
+            <div class="category-img">
+              <img src="combination.jpg" alt="combination" />
+            </div>
+            <h3>Combinations</h3>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works" id="how-it-works">
+      <div class="container">
+        <h2 class="section-title">How It Works</h2>
+        <div class="steps">
+          <div class="step">
+            <div class="step-icon">
+              <i class="fas fa-search"></i>
+            </div>
+            <h3>1. Browse Our Collections</h3>
+            <p>Explore our curated collection of premium fabrics and designs.</p>
+          </div>
+          <div class="step">
+            <div class="step-icon">
+              <i class="fas fa-tshirt"></i>
+            </div>
+            <h3>2. Select Your Design</h3>
+            <p>Choose from various categories and styles that match your preferences.</p>
+            <ul class="step-details">
+              <li><strong>Blouse</strong>: Simple Deep Neck, Long Blouse, etc.</li>
+              <li><strong>Choli</strong>: Gagra Choli, Crop Top Choli, etc.</li>
+            </ul>
+          </div>
+          <div class="step">
+            <div class="step-icon">
+              <i class="fab fa-whatsapp"></i>
+            </div>
+            <h3>3. Send on WhatsApp</h3>
+            <p>Share your size & style preferences with us directly for custom stitching.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Customization Showcase -->
+    <section class="customization">
+      <div class="container">
+        <h2 class="section-title">Customization Showcase</h2>
+        <div class="customization-showcase">
+          <div class="showcase-item">
+            <div class="showcase-img">
+              <img src="https://images.pexels.com/photos/12809127/pexels-photo-12809127.jpeg" alt="Before Customization" />
+              <span class="showcase-label">Before</span>
+            </div>
+          </div>
+          <div class="showcase-arrow">
+            <i class="fas fa-arrow-right"></i>
+          </div>
+          <div class="showcase-item">
+            <div class="showcase-img">
+              <img src="https://images.pexels.com/photos/12809129/pexels-photo-12809129.jpeg" alt="After Customization" />
+              <span class="showcase-label">After</span>
+            </div>
+          </div>
+        </div>
+        <div class="customization-info">
+          <p>Our expert tailors can transform your selected designs with personalized customizations to match your style and fit.</p>
+          <a href="#" class="btn-secondary">Explore Customization Options</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+      <div class="container">
+        <h2 class="section-title">What Our Customers Say</h2>
+        <div class="rating-summary">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>4.7 out of 5 based on 1000+ reviews</p>
+        </div>
+        <div class="testimonial-slider" id="testimonialSlider">
+          <div class="testimonial-slide active">
+            <div class="testimonial-content">
+              <p>"Absolutely loved the stitching. The fit was perfect and the fabric quality exceeded my expectations. Will definitely order again!"</p>
+              <div class="testimonial-author">
+                <div class="author-img">
+                  <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Ritu S." />
+                </div>
+                <div class="author-info">
+                  <h4>Ritu S.</h4>
+                  <div class="author-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-slide">
+            <div class="testimonial-content">
+              <p>"Fabric quality and service both top-notch. The team was very responsive and helped me choose the perfect design for my occasion."</p>
+              <div class="testimonial-author">
+                <div class="author-img">
+                  <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Aarti V." />
+                </div>
+                <div class="author-info">
+                  <h4>Aarti V.</h4>
+                  <div class="author-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-slide">
+            <div class="testimonial-content">
+              <p>"Got my dream choli stitched! Highly recommended. The attention to detail and craftsmanship is exceptional. Worth every penny!"</p>
+              <div class="testimonial-author">
+                <div class="author-img">
+                  <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Sneha M." />
+                </div>
+                <div class="author-info">
+                  <h4>Sneha M.</h4>
+                  <div class="author-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-controls">
+          <button class="testimonial-btn prev" id="prevTestimonial"><i class="fas fa-chevron-left"></i></button>
+          <div class="testimonial-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+          </div>
+          <button class="testimonial-btn next" id="nextTestimonial"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact/WhatsApp Section -->
+    <section class="contact">
+      <div class="container">
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <h2>Have Questions?</h2>
+            <p>Get in touch with us directly through WhatsApp or fill out the contact form.</p>
+            <a href="https://wa.me/919712400146?text=Hi%20I%20would%20like%20to%20custom%20stitch" class="btn-whatsapp" target="_blank">
+              <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+            </a>
+          </div>
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+              </div>
+              <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>VastraKalā</h2>
+          <p>Custom-Stitched Elegance</p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="catalog.html">Catalog</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-categories">
+          <h3>Categories</h3>
+          <ul>
+            <li><a href="#">Blouse</a></li>
+            <li><a href="#">Choli</a></li>
+            <li><a href="#">Kurti</a></li>
+            <li><a href="#">Saree</a></li>
+            <li><a href="#">Lehenga</a></li>
+          </ul>
+        </div>
+        <div class="footer-newsletter">
+          <div class="social-links">
+            <a href="https://wa.me/919712400146?text=Hi%20I%20would%20like%20to%20custom%20stitch"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 VastraKalā. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/919712400146?text=Hi%20I%20would%20like%20to%20custom%20stitch" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="script.js"></script>
+  <script src="catalog.js"></script>
+</body>
+</html>
+
