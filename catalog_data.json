@@ -3,7 +3,7 @@
     {
       "name": "Simple Blouse",
       "icon": "fas fa-shirt",
-      "image": "catalog/mains/main_blouse.jpg",
+      "image": "main_blouse.jpg",
       "subcategories": [
         {
           "name": "Simple Deep Neck",
@@ -52,7 +52,7 @@
     {
       "name": "Designer Blouse",
       "icon": "fas fa-shirt",
-      "image": "catalog/mains/main_designer_blouse.jpg",
+      "image": "main_designer_blouse.jpg",
       "subcategories": [
         {
           "name": "Embroidered Blouse",
@@ -80,7 +80,7 @@
     {
       "name": "CHOLI",
       "icon": "fas fa-hat-cowboy",
-      "image": "catalog/mains/main_choli.jpg",
+      "image": "main_choli.jpg",
       "subcategories": [
         {
           "name": "Gagra Choli",
@@ -108,7 +108,7 @@
     {
       "name": "Round Kurti",
       "icon": "fas fa-tshirt",
-      "image": "catalog/mains/main_round.jpg",
+      "image": "main_round.jpg",
       "subcategories": [
         {
           "name": "A-Line Kurti",
@@ -143,7 +143,7 @@
     {
       "name": "Designer Kurti",
       "icon": "fas fa-tshirt",
-      "image": "catalog/mains/main_designer_kurti.jpg",
+      "image": "main_designer_kurti.jpg",
       "subcategories": [
         {
           "name": "Embroidered Kurti",
@@ -171,7 +171,7 @@
     {
       "name": "COMBINATIONS",
       "icon": "fas fa-box",
-      "image": "catalog/mains/main_combinations.jpg",
+      "image": "main_combinations.jpg",
       "subcategories": [
         {
           "name": "Kurti-Dhoti",
