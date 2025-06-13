@@ -110,7 +110,7 @@ function showSubcategories(category = currentCategory) {
   }
 
   // Render subcategories
-  renderSubcategories(category.subcategories);
+  renderSubcategories(category.subcategories, currentCategory);
 
   // Scroll to top
   window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -137,14 +137,14 @@ function renderCategoryTabs() {
 }
 
 // Render subcategories grid
-function renderSubcategories(subcategories) {
+function renderSubcategories(subcategories, category) {
   const subcategoriesGrid = document.getElementById('subcategoriesGrid');
   if (!subcategoriesGrid) return;
 
   subcategoriesGrid.innerHTML = '';
 
   // Add customization message card first
-  const customizationCard = createCustomizationCard();
+  const customizationCard = createCustomizationCard(category);
   subcategoriesGrid.appendChild(customizationCard);
 
   subcategories.forEach(subcategory => {
@@ -159,7 +159,7 @@ function renderSubcategories(subcategories) {
 }
 
 // Create customization message card
-function createCustomizationCard() {
+function createCustomizationCard(category) {
   const card = document.createElement('div');
   card.className = 'customization-card';
   
@@ -168,8 +168,8 @@ function createCustomizationCard() {
       <div class="customization-icon">
         <i class="fas fa-magic"></i>
       </div>
-      <h3>100% Customizable</h3>
-      <p>These are the works that we have done. If you want all the products are 100% customizable according to your needs.</p>
+      <h3>Custom ${category.name}</h3>
+      <p>Explore our custom ${category.name} designs. All products are 100% customizable according to your needs.</p>
       <a href="https://wa.me/919712400146?text=Hi%20I%20would%20like%20to%20discuss%20custom%20design%20options" 
          class="btn-customize" target="_blank">
         <i class="fab fa-whatsapp"></i> Discuss Custom Design

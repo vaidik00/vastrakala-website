@@ -1,9 +1,9 @@
 {
   "categories": [
     {
-      "name": "BLOUSE",
+      "name": "Simple Blouse",
       "icon": "fas fa-shirt",
-      "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image": "catalog/mains/main_blouse.jpg",
       "subcategories": [
         {
           "name": "Simple Deep Neck",
@@ -50,9 +50,37 @@
       ]
     },
     {
+      "name": "Designer Blouse",
+      "icon": "fas fa-shirt",
+      "image": "catalog/mains/main_designer_blouse.jpg",
+      "subcategories": [
+        {
+          "name": "Embroidered Blouse",
+          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "description": "Exquisitely embroidered blouses featuring intricate designs and patterns, perfect for special occasions and festive wear. Each piece is a work of art, showcasing traditional craftsmanship.",
+          "rating": 4.9,
+          "materials": ["Silk", "Brocade", "Velvet", "Net"]
+        },
+        {
+          "name": "Mirror Work Blouse",
+          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "description": "Dazzling blouses adorned with mirror work, reflecting light and adding a touch of sparkle to your ensemble. Ideal for celebrations, these blouses are designed to make you stand out.",
+          "rating": 4.8,
+          "materials": ["Cotton Silk", "Georgette", "Chiffon", "Raw Silk"]
+        },
+        {
+          "name": "Bridal Blouse",
+          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "description": "Luxurious blouses crafted for brides, featuring elaborate embellishments, rich fabrics, and bespoke designs. Each bridal blouse is tailored to perfection, ensuring a stunning look on your special day.",
+          "rating": 5.0,
+          "materials": ["Silk", "Brocade", "Velvet", "Satin"]
+        }
+      ]
+    },
+    {
       "name": "CHOLI",
       "icon": "fas fa-hat-cowboy",
-      "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image": "catalog/mains/main_choli.jpg",
       "subcategories": [
         {
           "name": "Gagra Choli",
@@ -78,9 +106,9 @@
       ]
     },
     {
-      "name": "KURTI",
+      "name": "Round Kurti",
       "icon": "fas fa-tshirt",
-      "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image": "catalog/mains/main_round.jpg",
       "subcategories": [
         {
           "name": "A-Line Kurti",
@@ -113,37 +141,37 @@
       ]
     },
     {
-      "name": "PANT",
-      "icon": "fas fa-pants",
-      "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "name": "Designer Kurti",
+      "icon": "fas fa-tshirt",
+      "image": "catalog/mains/main_designer_kurti.jpg",
       "subcategories": [
         {
-          "name": "Kurti Pant",
+          "name": "Embroidered Kurti",
           "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-          "description": "Comfortable and stylish pants designed to perfectly complement kurtis. These offer a sleek and modern look while ensuring ease of movement, ideal for daily wear or casual outings.",
-          "rating": 4.5,
-          "materials": ["Cotton", "Rayon", "Lycra", "Flex Cotton"]
+          "description": "Exquisitely embroidered kurtis featuring intricate designs and patterns, perfect for special occasions and festive wear. Each piece is a work of art, showcasing traditional craftsmanship.",
+          "rating": 4.9,
+          "materials": ["Silk", "Brocade", "Velvet", "Net"]
         },
         {
-          "name": "Plazo Pant",
+          "name": "Anarkali Kurti",
           "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-          "description": "Wide-legged and flowing plazo pants that offer ultimate comfort and a fashionable silhouette. Perfect for a relaxed yet elegant look, suitable for both casual and festive occasions.",
-          "rating": 4.6,
-          "materials": ["Georgette", "Crepe", "Rayon", "Silk Blend"]
+          "description": "Graceful Anarkali kurtis with a flared silhouette, offering a regal and elegant look. Ideal for weddings and grand celebrations, these kurtis combine traditional charm with contemporary style.",
+          "rating": 4.8,
+          "materials": ["Georgette", "Chiffon", "Silk", "Crepe"]
         },
         {
-          "name": "Patiyala Pant",
+          "name": "Jacket Style Kurti",
           "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-          "description": "Traditional Patiyala pants with characteristic pleats that offer a voluminous and stylish look. A classic choice for ethnic wear, providing comfort and a rich cultural aesthetic.",
+          "description": "Trendy jacket-style kurtis that add a modern and sophisticated touch to your ethnic wardrobe. Perfect for a chic and fashionable look, suitable for various events and gatherings.",
           "rating": 4.7,
-          "materials": ["Cotton", "Silk", "Satin", "Brocade"]
+          "materials": ["Cotton Silk", "Rayon", "Linen", "Khadi"]
         }
       ]
     },
     {
       "name": "COMBINATIONS",
       "icon": "fas fa-box",
-      "image": "catalog/main_combination.jpg",
+      "image": "catalog/mains/main_combinations.jpg",
       "subcategories": [
         {
           "name": "Kurti-Dhoti",

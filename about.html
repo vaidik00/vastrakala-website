@@ -3,9 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>VastraKalā - About Us</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <title>VastraKalā - Testimonials</title>
+  
+  <!-- Preload critical fonts -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"></noscript>
+  
+  <!-- Preload Font Awesome -->
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
+  
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -19,8 +26,8 @@
         <ul class="nav-links" id="navLinks">
           <li><a href="index.html">Home</a></li>
           <li><a href="catalog.html">Catalog</a></li>
-          <li><a href="about.html" class="active">About</a></li>
-          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="testimonials.html" class="active">Testimonials</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </div>
@@ -28,129 +35,254 @@
   </header>
 
   <main>
-    <!-- Hero Section for About Us -->
+    <!-- Hero Section for Testimonials -->
     <section class="hero-small">
       <div class="container">
-        <h1>About VastraKalā</h1>
-        <p>Crafting Elegance, One Stitch at a Time.</p>
+        <h1>Customer Testimonials</h1>
+        <p>Hear what our happy customers have to say about VastraKalā.</p>
       </div>
     </section>
 
-    <!-- Introduction Section -->
-    <section class="about-intro">
+    <!-- Testimonials Section -->
+    <section class="testimonials-page">
       <div class="container">
-        <div class="intro-content">
-          <p>At VastraKalā, we believe every outfit should be as unique as the woman wearing it. Based in Gujarat, we are a premium custom-stitched clothing brand specializing in traditional Indian attire for women and girls. From timeless sarees to playful lehengas and elegant kurtis, our creations blend deep cultural heritage with a modern touch.</p>
+        <h2 class="section-title">What Our Customers Say</h2>
+        <div class="rating-summary">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>4.7 out of 5 based on 1000+ reviews</p>
         </div>
-        <div class="intro-image">
-          <img src="logo.png" alt="Traditional Indian Attire" />
-        </div>
-      </div>
-    </section>
 
-    <!-- What Sets Us Apart Section -->
-    <section class="features">
-      <div class="container">
-        <h2 class="section-title">What Sets Us Apart</h2>
-        <div class="features-grid">
-          <div class="feature-item">
-            <div class="feature-icon"><i class="fas fa-ruler-combined"></i></div>
-            <h3>100% Custom-Fit Stitching</h3>
-            <p>Garments tailored precisely to your unique measurements for the perfect fit.</p>
-          </div>
-          <div class="feature-item">
-            <div class="feature-icon"><i class="fab fa-whatsapp"></i></div>
-            <h3>Personal Design Consultations</h3>
-            <p>Direct consultations via WhatsApp to bring your vision to life.</p>
-          </div>
-          <div class="feature-item">
-            <div class="feature-icon"><i class="fas fa-gem"></i></div>
-            <h3>Premium Locally Sourced Fabrics</h3>
-            <p>High-quality materials chosen for comfort, durability, and elegance.</p>
-          </div>
-          <div class="feature-item">
-            <div class="feature-icon"><i class="fas fa-cut"></i></div>
-            <h3>Expert Craftsmanship</h3>
-            <p>Skilled artisans meticulously craft each piece with attention to detail.</p>
-          </div>
-          <div class="feature-item">
-            <div class="feature-icon"> <i class="fas fa-crown"></i></div>
-            <h3>Exclusive Designs</h3>
-            <p>Unique and captivating designs for women and girls that stand out.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+        <div class="testimonials-grid">
 
-    <!-- Our Mission Section -->
-    <section class="our-mission">
-      <div class="container">
-        <h2 class="section-title">Our Mission</h2>
-        <p>Our mission is to empower women of all ages to express their identity and elegance through garments that are crafted just for them. We believe in celebrating individuality and tradition through fashion.</p>
-      </div>
-    </section>
-
-    <!-- Our Simple Process Section -->
-    <section class="how-it-works">
-      <div class="container">
-        <h2 class="section-title">Our Simple Process</h2>
-        <div class="steps">
-          <div class="step">
-            <div class="step-icon"><i class="fas fa-search"></i></div>
-            <h3>1. Browse</h3>
-            <p>Explore our exquisite collection of designs and fabrics.</p>
-          </div>
-          <div class="step">
-            <div class="step-icon"><i class="fas fa-palette"></i></div>
-            <h3>2. Select a Style</h3>
-            <p>Choose the perfect design that resonates with your personal taste.</p>
-          </div>
-          <div class="step">
-            <div class="step-icon"><i class="fab fa-whatsapp"></i></div>
-            <h3>3. Share via WhatsApp</h3>
-            <p>Send us your measurements and preferences for custom tailoring.</p>
-          </div>
-          <div class="step">
-            <div class="step-icon"><i class="fas fa-cut"></i></div>
-            <h3>4. We Stitch</h3>
-            <p>Our expert artisans meticulously craft your garment with precision.</p>
-          </div>
-          <div class="step">
-            <div class="step-icon">&#10056;<i class="fas fa-sparkles"></i></div>
-            <h3>5. You Shine</h3>
-            <p>Receive your custom-stitched attire and radiate confidence.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Customer Trust Section -->
-    <section class="customer-trust">
-      <div class="container">
-        <h2 class="section-title">Trusted by Our Customers</h2>
-        <div class="trust-content">
-          <div class="rating-summary">
-            <div class="stars">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star-half-alt"></i>
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>"My simple deep neck blouse fits like a dream! The WhatsApp consultation made everything so easy, and the stitching is perfect. Feeling confident!"</p>
+              <div class="testimonial-author">
+                <div class="author-info">
+                  <h4>Priya, Mumbai</h4>
+                  <div class="author-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
             </div>
-            <p>4.7 out of 5 based on 1,000+ reviews</p>
           </div>
-          <p>VastraKalā is trusted for delivering comfort, confidence, and tradition — stitched with love.</p>
-        </div>
-      </div>
-    </section>
 
-    <!-- Call to Action Section -->
-    <section class="contact-cta-about">
-      <div class="container">
-        <div class="cta-content">
-          <h2>Ready to wear something made just for you?</h2>
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>"Got a long blouse stitched for a family function. The fabric feels so rich, and the fit is spot on. Thank you, VastraKalā!"</p>
+              <div class="testimonial-author">
+                <div class="author-info">
+                  <h4>Anjali, Delhi</h4>
+                  <div class="author-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>"Absolutely love my new boat neck blouse! The finish is so clean, and it arrived faster than I expected. Highly recommend!"</p>
+              <div class="testimonial-author">
+                <div class="author-info">
+                  <h4>Kavita, Bangalore</h4>
+                  <div class="author-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>"My pentloom blouse is just stunning. The craftsmanship is evident in every stitch. VastraKalā truly understands traditional wear."</p>
+              <div class="testimonial-author">
+                <div class="author-info">
+                  <h4>Meera, Chennai</h4>
+                  <div class="author-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>"I sent a complex pattern for my blouse, and VastraKalā nailed it! The fit and finish are impeccable. So happy with the result."</p>
+              <div class="testimonial-author">
+                <div class="author-info">
+                  <h4>Pooja, Hyderabad</h4>
+                  <div class="author-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>"The collar neck blouse stitched by VastraKalā is exactly what I wanted. The measurements were followed perfectly. Great service!"</p>
+              <div class="testimonial-author">
+                <div class="author-info">
+                  <h4>Sneha, Pune</h4>
+                  <div class="author-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>"My gagra choli for the festival is beautiful! The stitching is comfortable, and the design consultation helped me get it just right."</p>
+              <div class="testimonial-author">
+                <div class="author-info">
+                  <h4>Ritu, Jaipur</h4>
+                  <div class="author-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>"Ordered a crop top choli, and it's super stylish and fits perfectly. The WhatsApp process was smooth and convenient."</p>
+              <div class="testimonial-author">
+                <div class="author-info">
+                  <h4>Aisha, Kolkata</h4>
+                  <div class="author-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>"Needed a simple blouse choli quickly, and VastraKalā delivered! The quality is good for the price, and the fit is comfortable."</p>
+              <div class="testimonial-author">
+                <div class="author-info">
+                  <h4>Deepika, Ahmedabad</h4>
+                  <div class="author-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>"My A-Line kurti is so flattering and comfortable. The stitching is neat, and the fabric is soft. Perfect for everyday wear!"</p>
+              <div class="testimonial-author">
+                <div class="author-info">
+                  <h4>Neha, Lucknow</h4>
+                  <div class="author-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>"Received my round kurti, and the fit is just right. The online consultation was helpful in getting the neck style perfect."</p>
+              <div class="testimonial-author">
+                <div class="author-info">
+                  <h4>Tanya, Chandigarh</h4>
+                  <div class="author-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>"Love the straight kurti! The stitching is clean, and it drapes beautifully. VastraKalā made custom stitching so easy."</p>
+              <div class="testimonial-author">
+                <div class="author-info">
+                  <h4>Simran, Surat</h4>
+                  <div class="author-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Call to Action -->
+        <div class="testimonials-cta">
+          <h3>Ready to join our happy customers?</h3>
           <a href="https://wa.me/919712400146?text=Hi%20I%20would%20like%20to%20custom%20stitch" class="btn-whatsapp" target="_blank">
-            <i class="fab fa-whatsapp"></i> Message us on WhatsApp now
+            <i class="fab fa-whatsapp"></i> Start Your Custom Order
           </a>
         </div>
       </div>
