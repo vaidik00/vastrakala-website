@@ -6,16 +6,16 @@
       "image": "main_blouse.jpg",
       "subcategories": [
         {
-          "name": "Simple Deep Neck",
-          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-          "description": "A classic and elegant deep neck design that accentuates the neckline, perfect for both casual and festive occasions. It offers a sophisticated and graceful look, often paired with traditional sarees.",
+          "name": "Royal Bloom Back-Tie Blouse",
+          "image": "sblouse1.jpg",
+          "description": "An elegant navy blue blouse with multicolored floral embroidery and a signature teardrop back cut. The tied bow with tassels adds a graceful finishing touch. A timeless blend of sophistication and festive flair.",
           "rating": 4.5,
           "materials": ["Cotton", "Silk", "Georgette", "Crepe"]
         },
         {
-          "name": "Long Blouse",
-          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-          "description": "Extended length blouses that offer a contemporary twist to traditional wear. Ideal for pairing with lehengas or skirts, providing a modest yet stylish appearance. Can be adorned with intricate embroidery.",
+          "name": "Gulabārun – The Blossom of Elegance",
+          "image": "sblouse2.jpg",
+          "description": "A vibrant pink embroidered blouse featuring intricate floral motifs and elegant sleeve detailing. The design blends traditional charm with a modern silhouette. Finished with playful back tassels, it’s perfect for festive and special occasions.",
           "rating": 4.7,
           "materials": ["Silk", "Brocade", "Velvet", "Raw Silk"]
         },
@@ -175,7 +175,7 @@
       "subcategories": [
         {
           "name": "Kurti-Dhoti",
-          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "image": "combo2.jpg",
           "description": "A contemporary fusion of traditional kurti with stylish dhoti pants, offering a chic and comfortable ensemble. Perfect for modern festive wear, blending cultural roots with a trendy appeal.",
           "rating": 4.7,
           "materials": ["Cotton Silk", "Rayon", "Georgette", "Crepe"]
@@ -196,7 +196,7 @@
         },
         {
           "name": "Kurti-Plazo (with optional double-layer)",
-          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "image": "combo1.jpg",
           "description": "A fashionable and comfortable combination of kurti with wide-legged plazo pants, offering a graceful silhouette. The optional double-layer adds an extra touch of elegance and volume, perfect for festive occasions.",
           "rating": 4.8,
           "materials": ["Georgette", "Chiffon", "Rayon", "Crepe"]

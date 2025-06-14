@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", function() {
   initWebsite();
 });
 
+
+
 // Main initialization function
 function initWebsite() {
   // Add fade-in animation to body
