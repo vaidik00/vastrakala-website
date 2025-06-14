@@ -7,42 +7,62 @@
       "subcategories": [
         {
           "name": "Royal Bloom Back-Tie Blouse",
-          "image": "sblouse1.jpg",
+          "images": ["sblouse1.jpg", "sblouse1back.jpg"],
           "description": "An elegant navy blue blouse with multicolored floral embroidery and a signature teardrop back cut. The tied bow with tassels adds a graceful finishing touch. A timeless blend of sophistication and festive flair.",
           "rating": 4.5,
           "materials": ["Cotton", "Silk", "Georgette", "Crepe"]
         },
         {
           "name": "Gulabārun – The Blossom of Elegance",
-          "image": "sblouse2.jpg",
-          "description": "A vibrant pink embroidered blouse featuring intricate floral motifs and elegant sleeve detailing. The design blends traditional charm with a modern silhouette. Finished with playful back tassels, it’s perfect for festive and special occasions.",
+          "images": ["sblouse2.jpg", "sblouse2back.jpg"],
+          "description": "A vibrant pink embroidered blouse featuring intricate floral motifs and elegant sleeve detailing. The design blends traditional charm with a modern silhouette. Finished with playful back tassels, it's perfect for festive and special occasions.",
           "rating": 4.7,
           "materials": ["Silk", "Brocade", "Velvet", "Raw Silk"]
         },
         {
           "name": "Boat Neck Blouse",
-          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "images": [
+            "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1078979/pexels-photo-1078979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1078980/pexels-photo-1078980.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1078981/pexels-photo-1078981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          ],
           "description": "A chic and modern boat neck design that gracefully outlines the collarbones. This versatile style suits various body types and is perfect for both formal and semi-formal events, offering a sophisticated appeal.",
           "rating": 4.6,
           "materials": ["Cotton Silk", "Georgette", "Chiffon", "Linen"]
         },
         {
           "name": "Pentloom Blouse",
-          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "images": [
+            "https://images.pexels.com/photos/1078982/pexels-photo-1078982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1078983/pexels-photo-1078983.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1078984/pexels-photo-1078984.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1078985/pexels-photo-1078985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          ],
           "description": "A unique and intricate blouse style, often featuring elaborate patterns and rich textures. Pentloom blouses are a statement piece, perfect for grand celebrations and weddings, showcasing exquisite craftsmanship.",
           "rating": 4.8,
           "materials": ["Brocade", "Jacquard", "Silk Blend", "Net"]
         },
         {
           "name": "All Type Pattern Blouse",
-          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "images": [
+            "https://images.pexels.com/photos/1078986/pexels-photo-1078986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1078987/pexels-photo-1078987.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1078988/pexels-photo-1078988.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1078989/pexels-photo-1078989.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          ],
           "description": "Customizable blouses that can incorporate any pattern or design you envision, from traditional motifs to contemporary prints. Our expert tailors bring your unique vision to life with precision and artistry.",
           "rating": 4.7,
           "materials": ["Crepe", "Satin", "Chiffon", "Organza"]
         },
         {
           "name": "Collar Neck Blouse",
-          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "images": [
+            "https://images.pexels.com/photos/1078990/pexels-photo-1078990.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1078991/pexels-photo-1078991.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1078992/pexels-photo-1078992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1078993/pexels-photo-1078993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          ],
           "description": "A sophisticated collar neck design that adds a formal and structured look to your attire. Ideal for office wear or elegant gatherings, offering a blend of traditional charm and modern professionalism.",
           "rating": 4.6,
           "materials": ["Cotton", "Linen", "Khadi", "Rayon"]
@@ -56,21 +76,36 @@
       "subcategories": [
         {
           "name": "Embroidered Blouse",
-          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "images": [
+            "https://images.pexels.com/photos/1078994/pexels-photo-1078994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1078995/pexels-photo-1078995.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1078996/pexels-photo-1078996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1078997/pexels-photo-1078997.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          ],
           "description": "Exquisitely embroidered blouses featuring intricate designs and patterns, perfect for special occasions and festive wear. Each piece is a work of art, showcasing traditional craftsmanship.",
           "rating": 4.9,
           "materials": ["Silk", "Brocade", "Velvet", "Net"]
         },
         {
           "name": "Mirror Work Blouse",
-          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "images": [
+            "https://images.pexels.com/photos/1078998/pexels-photo-1078998.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1078999/pexels-photo-1078999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079000/pexels-photo-1079000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079001/pexels-photo-1079001.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          ],
           "description": "Dazzling blouses adorned with mirror work, reflecting light and adding a touch of sparkle to your ensemble. Ideal for celebrations, these blouses are designed to make you stand out.",
           "rating": 4.8,
           "materials": ["Cotton Silk", "Georgette", "Chiffon", "Raw Silk"]
         },
         {
           "name": "Bridal Blouse",
-          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "images": [
+            "https://images.pexels.com/photos/1079002/pexels-photo-1079002.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079003/pexels-photo-1079003.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079004/pexels-photo-1079004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079005/pexels-photo-1079005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          ],
           "description": "Luxurious blouses crafted for brides, featuring elaborate embellishments, rich fabrics, and bespoke designs. Each bridal blouse is tailored to perfection, ensuring a stunning look on your special day.",
           "rating": 5.0,
           "materials": ["Silk", "Brocade", "Velvet", "Satin"]
@@ -84,21 +119,36 @@
       "subcategories": [
         {
           "name": "Gagra Choli",
-          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "images": [
+            "https://images.pexels.com/photos/1079006/pexels-photo-1079006.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079007/pexels-photo-1079007.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079008/pexels-photo-1079008.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079009/pexels-photo-1079009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          ],
           "description": "The quintessential traditional Indian ensemble, perfect for festive occasions and weddings. Our Gagra Cholis feature vibrant colors, intricate embroidery, and flowing silhouettes that exude grace and grandeur.",
           "rating": 4.7,
           "materials": ["Silk", "Georgette", "Net", "Velvet"]
         },
         {
           "name": "Crop Top Choli",
-          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "images": [
+            "https://images.pexels.com/photos/1079010/pexels-photo-1079010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079011/pexels-photo-1079011.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079012/pexels-photo-1079012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079013/pexels-photo-1079013.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          ],
           "description": "A modern and trendy take on the traditional choli, designed to be paired with high-waisted skirts or lehengas. Offers a youthful and chic look, perfect for contemporary events and fusion wear.",
           "rating": 4.6,
           "materials": ["Crepe", "Satin", "Raw Silk", "Brocade"]
         },
         {
           "name": "Simple Blouse Choli",
-          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "images": [
+            "https://images.pexels.com/photos/1079014/pexels-photo-1079014.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079015/pexels-photo-1079015.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079016/pexels-photo-1079016.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079017/pexels-photo-1079017.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          ],
           "description": "Elegant and understated cholis that focus on clean lines and comfortable fits. Ideal for everyday wear or less formal gatherings, providing a graceful and effortless traditional look.",
           "rating": 4.5,
           "materials": ["Cotton", "Rayon", "Linen", "Chiffon"]
@@ -112,28 +162,48 @@
       "subcategories": [
         {
           "name": "A-Line Kurti",
-          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "images": [
+            "https://images.pexels.com/photos/1079018/pexels-photo-1079018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079019/pexels-photo-1079019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079020/pexels-photo-1079020.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079021/pexels-photo-1079021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          ],
           "description": "A universally flattering A-line silhouette that flares out gently from the waist, offering comfort and style. Perfect for all body types and suitable for both casual and semi-formal occasions.",
           "rating": 4.7,
           "materials": ["Cotton", "Rayon", "Georgette", "Crepe"]
         },
         {
           "name": "Round Kurti",
-          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "images": [
+            "https://images.pexels.com/photos/1079022/pexels-photo-1079022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079023/pexels-photo-1079023.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079024/pexels-photo-1079024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079025/pexels-photo-1079025.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          ],
           "description": "Kurtis with a classic round hemline, offering a soft and flowing look. This timeless design is comfortable and versatile, suitable for daily wear or festive events when adorned with embellishments.",
           "rating": 4.6,
           "materials": ["Cotton", "Linen", "Chiffon", "Silk Blend"]
         },
         {
           "name": "Straight Kurti",
-          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "images": [
+            "https://images.pexels.com/photos/1079026/pexels-photo-1079026.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079027/pexels-photo-1079027.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079028/pexels-photo-1079028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079029/pexels-photo-1079029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          ],
           "description": "Clean and contemporary straight-cut kurtis that offer a sleek and elongated silhouette. Ideal for a modern minimalist look, easily paired with various bottom wear for different occasions.",
           "rating": 4.5,
           "materials": ["Cotton", "Rayon", "Khadi", "Denim"]
         },
         {
           "name": "Nayra Cut Kurti",
-          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "images": [
+            "https://images.pexels.com/photos/1079030/pexels-photo-1079030.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079031/pexels-photo-1079031.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079032/pexels-photo-1079032.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079033/pexels-photo-1079033.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          ],
           "description": "A stylish and contemporary kurti design featuring a unique cut that adds flair and movement. Perfect for those who seek a modern yet traditional outfit, suitable for parties and special events.",
           "rating": 4.8,
           "materials": ["Georgette", "Chiffon", "Silk", "Net"]
@@ -147,21 +217,36 @@
       "subcategories": [
         {
           "name": "Embroidered Kurti",
-          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "images": [
+            "https://images.pexels.com/photos/1079034/pexels-photo-1079034.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079035/pexels-photo-1079035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079036/pexels-photo-1079036.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079037/pexels-photo-1079037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          ],
           "description": "Exquisitely embroidered kurtis featuring intricate designs and patterns, perfect for special occasions and festive wear. Each piece is a work of art, showcasing traditional craftsmanship.",
           "rating": 4.9,
           "materials": ["Silk", "Brocade", "Velvet", "Net"]
         },
         {
           "name": "Anarkali Kurti",
-          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "images": [
+            "https://images.pexels.com/photos/1079038/pexels-photo-1079038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079039/pexels-photo-1079039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079040/pexels-photo-1079040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079041/pexels-photo-1079041.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          ],
           "description": "Graceful Anarkali kurtis with a flared silhouette, offering a regal and elegant look. Ideal for weddings and grand celebrations, these kurtis combine traditional charm with contemporary style.",
           "rating": 4.8,
           "materials": ["Georgette", "Chiffon", "Silk", "Crepe"]
         },
         {
           "name": "Jacket Style Kurti",
-          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "images": [
+            "https://images.pexels.com/photos/1079042/pexels-photo-1079042.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079043/pexels-photo-1079043.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079044/pexels-photo-1079044.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079045/pexels-photo-1079045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          ],
           "description": "Trendy jacket-style kurtis that add a modern and sophisticated touch to your ethnic wardrobe. Perfect for a chic and fashionable look, suitable for various events and gatherings.",
           "rating": 4.7,
           "materials": ["Cotton Silk", "Rayon", "Linen", "Khadi"]
@@ -175,28 +260,38 @@
       "subcategories": [
         {
           "name": "Kurti-Dhoti",
-          "image": "combo2.jpg",
+          "images": ["combo2.jpg"],
           "description": "A contemporary fusion of traditional kurti with stylish dhoti pants, offering a chic and comfortable ensemble. Perfect for modern festive wear, blending cultural roots with a trendy appeal.",
           "rating": 4.7,
           "materials": ["Cotton Silk", "Rayon", "Georgette", "Crepe"]
         },
         {
           "name": "Kurti-Pant",
-          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "images": [
+            "https://images.pexels.com/photos/1079046/pexels-photo-1079046.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079047/pexels-photo-1079047.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079048/pexels-photo-1079048.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079049/pexels-photo-1079049.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          ],
           "description": "A versatile and popular combination for everyday elegance. Our kurti-pant sets are designed for comfort and style, suitable for office wear, casual outings, or semi-formal gatherings.",
           "rating": 4.6,
           "materials": ["Cotton", "Rayon", "Linen", "Flex Cotton"]
         },
         {
           "name": "Kurti-Patiyala",
-          "image": "https://images.pexels.com/photos/1078978/pexels-photo-1078978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "images": [
+            "https://images.pexels.com/photos/1079050/pexels-photo-1079050.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079051/pexels-photo-1079051.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079052/pexels-photo-1079052.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1079053/pexels-photo-1079053.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          ],
           "description": "A classic and comfortable combination featuring a kurti paired with traditional Patiyala pants. Ideal for a relaxed yet stylish ethnic look, perfect for daily wear or cultural events.",
           "rating": 4.5,
           "materials": ["Cotton", "Silk", "Satin", "Brocade"]
         },
         {
           "name": "Kurti-Plazo (with optional double-layer)",
-          "image": "combo1.jpg",
+          "images": ["combo1.jpg", "combo1-1.jpg", "combo1-2.jpg"],
           "description": "A fashionable and comfortable combination of kurti with wide-legged plazo pants, offering a graceful silhouette. The optional double-layer adds an extra touch of elegance and volume, perfect for festive occasions.",
           "rating": 4.8,
           "materials": ["Georgette", "Chiffon", "Rayon", "Crepe"]

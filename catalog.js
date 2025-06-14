@@ -228,12 +228,8 @@ function showProductDetail(subcategory) {
 
 // Populate product detail section
 function populateProductDetail(subcategory) {
-  // Product image
-  const productImage = document.getElementById('productImage');
-  if (productImage) {
-    productImage.src = subcategory.image;
-    productImage.alt = subcategory.name;
-  }
+  // Product carousel
+  renderProductCarousel(subcategory.images);
 
   // Product name
   const productName = document.getElementById('productName');
@@ -430,6 +426,279 @@ document.addEventListener('click', function(e) {
 window.addEventListener('resize', function() {
   // Add any responsive adjustments if needed
 });
+
+// Product Carousel Functionality
+let currentCarouselIndex = 0;
+let carouselImages = [];
+let carouselAutoInterval = null;
+
+// Render product carousel
+function renderProductCarousel(images) {
+  carouselImages = images;
+  currentCarouselIndex = 0;
+  
+  const carouselTrack = document.getElementById('carouselTrack');
+  const carouselIndicators = document.getElementById('carouselIndicators');
+  
+  if (!carouselTrack || !carouselIndicators) return;
+  
+  // Clear existing content
+  carouselTrack.innerHTML = '';
+  carouselIndicators.innerHTML = '';
+  
+  // Create carousel slides
+  images.forEach((image, index) => {
+    const slide = document.createElement('div');
+    slide.className = `carousel-slide ${index === 0 ? 'active' : ''}`;
+    slide.innerHTML = `<img src="${image}" alt="Product Image ${index + 1}" loading="lazy">`;
+    carouselTrack.appendChild(slide);
+    
+    // Create indicator
+    const indicator = document.createElement('button');
+    indicator.className = `carousel-indicator ${index === 0 ? 'active' : ''}`;
+    indicator.setAttribute('data-slide', index);
+    indicator.setAttribute('type', 'button');
+    indicator.setAttribute('aria-label', `Go to slide ${index + 1}`);
+    indicator.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      stopCarouselAutoScroll();
+      goToSlide(index);
+      startCarouselAutoScroll();
+    });
+    carouselIndicators.appendChild(indicator);
+  });
+  
+  // Initialize carousel controls
+  initCarouselControls();
+  
+  // Start auto-scroll
+  startCarouselAutoScroll();
+  
+  // Add touch support
+  addCarouselTouchSupport();
+}
+
+// Initialize carousel controls
+function initCarouselControls() {
+  const prevBtn = document.getElementById('carouselPrev');
+  const nextBtn = document.getElementById('carouselNext');
+  
+  // Remove existing event listeners to prevent duplicates
+  if (prevBtn) {
+    prevBtn.replaceWith(prevBtn.cloneNode(true));
+    const newPrevBtn = document.getElementById('carouselPrev');
+    newPrevBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      stopCarouselAutoScroll();
+      previousSlide();
+      startCarouselAutoScroll();
+    });
+  }
+  
+  if (nextBtn) {
+    nextBtn.replaceWith(nextBtn.cloneNode(true));
+    const newNextBtn = document.getElementById('carouselNext');
+    newNextBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      stopCarouselAutoScroll();
+      nextSlide();
+      startCarouselAutoScroll();
+    });
+  }
+}
+
+// Go to specific slide
+function goToSlide(index) {
+  if (index < 0 || index >= carouselImages.length) return;
+  
+  currentCarouselIndex = index;
+  updateCarouselDisplay();
+}
+
+// Go to next slide
+function nextSlide() {
+  currentCarouselIndex = (currentCarouselIndex + 1) % carouselImages.length;
+  updateCarouselDisplay();
+}
+
+// Go to previous slide
+function previousSlide() {
+  currentCarouselIndex = currentCarouselIndex === 0 ? carouselImages.length - 1 : currentCarouselIndex - 1;
+  updateCarouselDisplay();
+}
+
+// Update carousel display
+function updateCarouselDisplay() {
+  const slides = document.querySelectorAll('.carousel-slide');
+  const indicators = document.querySelectorAll('.carousel-indicator');
+  
+  // Update slides
+  slides.forEach((slide, index) => {
+    slide.classList.toggle('active', index === currentCarouselIndex);
+  });
+  
+  // Update indicators
+  indicators.forEach((indicator, index) => {
+    indicator.classList.toggle('active', index === currentCarouselIndex);
+  });
+  
+  // Update track position
+  const carouselTrack = document.getElementById('carouselTrack');
+  if (carouselTrack) {
+    const translateX = -currentCarouselIndex * 100;
+    carouselTrack.style.transform = `translateX(${translateX}%)`;
+  }
+}
+
+// Start auto-scroll
+function startCarouselAutoScroll() {
+  if (carouselImages.length <= 1) return;
+  
+  stopCarouselAutoScroll();
+  carouselAutoInterval = setInterval(() => {
+    nextSlide();
+  }, 4000); // Auto-scroll every 4 seconds
+}
+
+// Stop auto-scroll
+function stopCarouselAutoScroll() {
+  if (carouselAutoInterval) {
+    clearInterval(carouselAutoInterval);
+    carouselAutoInterval = null;
+  }
+}
+
+// Add touch support for carousel
+function addCarouselTouchSupport() {
+  const carousel = document.getElementById('productCarousel');
+  if (!carousel) return;
+  
+  let startX = 0;
+  let startY = 0;
+  let isDragging = false;
+  
+  // Touch start
+  carousel.addEventListener('touchstart', (e) => {
+    startX = e.touches[0].clientX;
+    startY = e.touches[0].clientY;
+    isDragging = true;
+    stopCarouselAutoScroll();
+  }, { passive: true });
+  
+  // Touch move
+  carousel.addEventListener('touchmove', (e) => {
+    if (!isDragging) return;
+    
+    const currentX = e.touches[0].clientX;
+    const currentY = e.touches[0].clientY;
+    const diffX = startX - currentX;
+    const diffY = startY - currentY;
+    
+    // Prevent vertical scrolling if horizontal swipe is detected
+    if (Math.abs(diffX) > Math.abs(diffY)) {
+      e.preventDefault();
+    }
+  }, { passive: false });
+  
+  // Touch end
+  carousel.addEventListener('touchend', (e) => {
+    if (!isDragging) return;
+    
+    const endX = e.changedTouches[0].clientX;
+    const diffX = startX - endX;
+    const threshold = 50; // Minimum swipe distance
+    
+    if (Math.abs(diffX) > threshold) {
+      if (diffX > 0) {
+        nextSlide(); // Swipe left - next slide
+      } else {
+        previousSlide(); // Swipe right - previous slide
+      }
+    }
+    
+    isDragging = false;
+    startCarouselAutoScroll();
+  }, { passive: true });
+  
+  // Mouse support for desktop
+  let isMouseDown = false;
+  let mouseStartX = 0;
+  
+  carousel.addEventListener('mousedown', (e) => {
+    mouseStartX = e.clientX;
+    isMouseDown = true;
+    stopCarouselAutoScroll();
+    e.preventDefault();
+  });
+  
+  carousel.addEventListener('mousemove', (e) => {
+    if (!isMouseDown) return;
+    e.preventDefault();
+  });
+  
+  carousel.addEventListener('mouseup', (e) => {
+    if (!isMouseDown) return;
+    
+    const diffX = mouseStartX - e.clientX;
+    const threshold = 50;
+    
+    if (Math.abs(diffX) > threshold) {
+      if (diffX > 0) {
+        nextSlide();
+      } else {
+        previousSlide();
+      }
+    }
+    
+    isMouseDown = false;
+    startCarouselAutoScroll();
+  });
+  
+  carousel.addEventListener('mouseleave', () => {
+    isMouseDown = false;
+    startCarouselAutoScroll();
+  });
+  
+  // Pause auto-scroll on hover
+  carousel.addEventListener('mouseenter', () => {
+    stopCarouselAutoScroll();
+  });
+  
+  carousel.addEventListener('mouseleave', () => {
+    startCarouselAutoScroll();
+  });
+}
+
+// Update subcategory card to use first image from images array
+function createSubcategoryCard(subcategory) {
+  const card = document.createElement('div');
+  card.className = 'subcategory-card';
+  
+  const stars = generateStars(subcategory.rating);
+  const firstImage = subcategory.images ? subcategory.images[0] : subcategory.image;
+  
+  card.innerHTML = `
+    <div class="subcategory-image">
+      <img src="${firstImage}" alt="${subcategory.name}" loading="lazy">
+    </div>
+    <div class="subcategory-info">
+      <h3>${subcategory.name}</h3>
+      <div class="subcategory-rating">
+        ${stars}
+      </div>
+      <p>${subcategory.description.substring(0, 100)}...</p>
+    </div>
+  `;
+
+  card.addEventListener('click', () => {
+    showProductDetail(subcategory);
+  });
+
+  return card;
+}
 
 // Export functions for potential external use
 window.VastraKalaCatalog = {
